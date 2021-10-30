@@ -92,7 +92,6 @@ body{
   width: 100%;
   color: #394150;
 }
-
 .slogan h2{
   font-size: 30px;
   font-weight: 600;
@@ -108,6 +107,31 @@ body{
   padding: 33px 0 36px 0;
   font-size: 20px;
 }
+.threepoints{
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0 190px;
+}
+.threepoints_block{
+  text-align: center;
+  color: #394150;
+}
+.threepoints_block img{
+  width: 230px;
+}
+.threepoints_block h3{
+  font-size: 19px;
+  font-weight: 800;
+  padding: 20px 0 14px;
+}
+.threepoints_block p{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
 
 .footer{
   text-align: center;
