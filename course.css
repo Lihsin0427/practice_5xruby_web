@@ -3,12 +3,14 @@
   background-color: #29303D;
 }
 .course_short{
+  width: 1080px;
   display: flex;
   height: 410px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .course_slogan{
-  width: 50%;
-  margin: 100px 30px 0px 50px;
+  margin: 170px 30px 0px 20px;
 }
 .course_slogan h4{
   font-size: 30px;
@@ -23,31 +25,32 @@
   margin: left;
 }
 .course_slogan p{
-  padding: 30px 0;
+  padding-top: 30px;
   font-size: 19px;
   font-weight: 400;
   color: #a9b0bd;
   line-height: 28px;
 }
 .course_goto{
-  /* align-items: flex-end; */
   width: 50%;
   height: 100%;
   display: flex;
-  margin-right: 50px;
+  margin-right: 20px;
   align-self: flex-end;
 }
 .course_goto_dot{
-  /* display: block; */
+  display: block;
   width: 30px;
   align-self: flex-end;
 }
 .course_dot{
-  width: 9px;
-  height: 9px;
-  margin-bottom: 8px ;
+  width: 8px;
+  height: 8px;
   background-color: #a9b0bd;
   transform: rotate(45deg);
+}
+.course_goto_dot :nth-child(-n+2){
+  margin-bottom: 10px ;
 }
 .course_dot:active{
   background-color: #fc1b44;
