@@ -64,8 +64,8 @@ body{
   /* background-color: rgb(204, 175, 175); */
 }
 .header nav p{
-  height: 40px;
-  padding-top: 22px;
+  height: 39px;
+  padding-top: 24px;
 }
 .header nav a:hover{
   color: #fc1b44;
@@ -100,7 +100,7 @@ body{
 .slogan_color{
   width: 48px;
   height: 2px;
-  background-color: #fc1b44;;
+  background-color: #fc1b44;
   margin: auto;
 }
 .slogan p{
@@ -112,7 +112,7 @@ body{
   width: 1200px;
   display: flex;
   justify-content: space-evenly;
-  padding: 30px 0 190px;
+  padding: 30px 0 180px;
 }
 .threepoints_block{
   text-align: center;
@@ -130,8 +130,123 @@ body{
   font-size: 16px;
   line-height: 22px;
 }
+.teacher{
+  width: 100%;
+  background-color: #F9FAFB;
+  color: #394150;
+}
+.teacher_slogan{
+  width: 770px;
+  text-align: left;
+  margin: auto;
+  padding: 100px 0 0;
+}
+.teacher_slogan h2{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 12px 0;
+}
+.teacher_slogan_color{
+  width: 48px;
+  height: 2px;
+  background-color: #fc1b44;;
+  margin: left;
+}
+.teacher_slogan p{
+  padding: 33px 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+.teacher_member{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(252, 221, 221);
+  justify-content: space-evenly;
+}
+.teacher_member_each{
+  width: 510px;
+  background-color:white;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(70, 69, 69, 0.1)
+}
 
+.member_info{
+  display: flex;
+  align-items: center;
+  padding: 0 0 25px;
+}
+.member_pic{
+  width: 160px;
+  border-radius: 50%;
+}
+.member_info_name{
+  padding: 20px;
+}
+.member_info_name p{
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.member_info_color{
+  width: 40px;
+  height: 2px;
+  background-color: #fc1b44;;
+  margin: left;
+}
+.member_info_name h4{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+.member_contact{
+  display: flex;
+}
+.member_contact img{
+  width: 23px;
+  opacity: 0.5;
+  padding-right: 15px;
+}
+.member_contact img:hover{
+  opacity: 1;
+}
+.member_line{
+  margin: auto;
+  width: 80%;
+  height: 2px;
+  background-color: #E5E7EB;
+}
+.member_introduce{
+  font-size: 16px;
+  line-height: 22px;
+}
 
+.member_line2{
+  display: flex;
+}
+.member_line2 p{
+  font-size: 16px;
+}
+.member_course{
+  display: flex;
+  flex-wrap:wrap;
+  
+}
+.member_course a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #fc1b44;
+  padding: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fc1b44;
+  border-radius: 5px;
+}
+
+.member_course a:hover{
+  color: white;
+  background-color: #fc1b44;
+}
 
 .footer{
   text-align: center;
