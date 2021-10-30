@@ -67,7 +67,6 @@ body{
 .header nav p{
   height: 40px;
   padding-top: 22px;
-  background-color: #fff;
 }
 .header nav a:hover{
   color: #fc1b44;
@@ -89,16 +88,34 @@ body{
   vertical-align: bottom;
   border-radius: 5px;
 }
+.slogan{
+  text-align: center;
+  width: 100%;
+  color: #394150;
+}
 
-
-
+.slogan h2{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 48px 0 12px 0;
+}
+.slogan_color{
+  width: 48px;
+  height: 2px;
+  background-color: #fc1b44;;
+  margin: auto;
+}
+.slogan p{
+  padding: 33px 0 36px 0;
+  font-size: 20px;
+}
 
 .footer{
   text-align: center;
   background-color: #171E2C;
   color: #A0A6B1;
   font-size: 13.5px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 19px 0;
 }
 
