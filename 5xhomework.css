@@ -218,7 +218,7 @@ body{
 .member_introduce{
   padding: 16px 0;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 23px;
 }
 .member_introduce p{
@@ -252,12 +252,21 @@ body{
   border-style: solid;
   border-color: #fc1b44;
   border-radius: 5px;
-
 }
-
 .member_course a:hover{
   color: white;
   background-color: #fc1b44;
+}
+.member_introduce span{
+  font-weight: 900;
+}
+.member_introduce a{
+  text-decoration: none;
+  color: #fc1b44;
+}
+.member_introduce a:hover{
+  text-decoration: underline;
+  color: #fc1b44;
 }
 
 .footer{
