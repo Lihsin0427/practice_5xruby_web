@@ -84,9 +84,102 @@
 .course_goto_page a:hover{
   text-decoration: underline;
 }
-
-
-
+.course_recently{
+  width: 1200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.course_recently h5{
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  padding: 100px 0 30px 
+}
+.recentlybg{
+  display: flex;
+}
+.recentlybg div{
+  width: 380px;
+  height: 330px;
+  background-color: #fc1b44;
+  border-radius: 8px;
+}
+.recentlybg div:nth-of-type(-n+2){
+  margin-right: 30px;
+}
+.recently{
+  display: flex;
+  position: relative;
+  top: -330px;
+}
+.recently a{
+  width: 380px;
+  height: 330px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.recently a:nth-of-type(-n+2){
+  margin-right: 30px;
+}
+.recently_each{
+  text-decoration: none;
+}
+.recently_each:hover{
+  position: relative;
+  top: -15px;
+}
+.recently_each_pic{
+  width: 380px;
+}
+.recently_each_month{
+  width: fit-content;
+  margin: 15px 0 13px 20px;
+  color: #727883;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 5px;
+  border-style: solid;
+  border-color: #cdcdcd;
+  border-width: 1px;
+  border-radius: 3px;
+}
+.recently_each_decoline{
+  margin: 0 20px;
+  height: 1px;
+  background-color: #cdcdcd;
+}
+.recently_each_bottom{
+  display: flex;
+  margin: 13px 20px;
+  justify-content: space-between;
+}
+.recently_each_teacher{
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  color: #A0A6B1;
+  align-items: center;
+}
+.recently_each_teacher img{
+  align-self: start;
+  width: 16px;
+  padding-right: 8px;
+}
+.recently_each_level{
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #F87171;
+}
+.recently_each_level img{
+  align-self: start;
+  width: 14px;
+  padding-right: 6px;
+}
+.recently_each_last{
+  color: #34D399;
+}
 .course_more{
   width: 100%;
   height: 120pt;
