@@ -164,9 +164,9 @@ body{
   justify-content: space-evenly;
 }
 .teacher_member_each{
-  width: 500px;
+  width: 510px;
   background-color:white;
-  padding: 40px;
+  padding: 35px;
   margin-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(70, 69, 69, 0.1)
@@ -217,12 +217,23 @@ body{
 }
 .member_introduce{
   padding: 16px 0;
-  font-size: 16px;
+  font-size: 15.5px;
   font-weight: normal;
   line-height: 23px;
 }
 .member_introduce p{
   padding-top: 10px;
+}
+.member_introduce span{
+  font-weight: 900;
+}
+.member_introduce a{
+  text-decoration: none;
+  color: #fc1b44;
+}
+.member_introduce a:hover{
+  text-decoration: underline;
+  color: #fc1b44;
 }
 .member_line2{
   display: flex;
@@ -247,6 +258,7 @@ body{
   text-decoration: none;
   color: #fc1b44;
   margin-right: 15px;
+  margin-bottom: 15px;
   padding: 8px;
   border-width: 1px;
   border-style: solid;
@@ -257,18 +269,70 @@ body{
   color: white;
   background-color: #fc1b44;
 }
-.member_introduce span{
-  font-weight: 900;
+.media{
+  width: 100%;
+  background-color: #F9FAFB;
+  color: #394150;
 }
-.member_introduce a{
+.media_tittle{
+  text-align: center;
+  margin: auto;
+  padding: 100px 0 80px;
+}
+.media_tittle h2{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 12px 0;
+}
+.media_tittle_color{
+  width: 48px;
+  height: 2px;
+  background-color: #fc1b44;
+  margin: auto;
+}
+.media_reports{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+.media_reports_news{
+  width: 580px;
+  height: 140px;
+}
+.media_reports_news a{
   text-decoration: none;
+  color: #394150;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.media_reports_news a:hover{
   color: #fc1b44;
 }
-.member_introduce a:hover{
-  text-decoration: underline;
-  color: #fc1b44;
+.media_reports_news p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #727884;
+  padding-top: 18px;
 }
-
+.media_more{
+  width: 100%;
+  height: 120pt;
+  text-align: center;
+  margin-top: 25px;
+  align-items: center;
+}
+.media_more a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  padding: 12px 32px;
+  background-color: #fc1b44;
+  border-radius: 5px;
+}
+.media_more a:hover{
+  background-color: #b31e39;
+}
 .footer{
   text-align: center;
   background-color: #171E2C;
