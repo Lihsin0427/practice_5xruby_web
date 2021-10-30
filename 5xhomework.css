@@ -2,7 +2,6 @@ body{
   padding-top: 90px;
   width: 100%;
 }
-
 ::selection {
     background: #fc1b44;
     color: white;
@@ -333,6 +332,9 @@ body{
 .media_more a:hover{
   background-color: #b31e39;
 }
+
+
+
 .footer{
   text-align: center;
   background-color: #171E2C;
