@@ -29,18 +29,17 @@ body{
   right: 0;
   top: 0;
   box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.2);
+  background-color: #fff;
 }
 .logo{
-  width: 400px;
+  width: 320px;
   display: flex;
   margin: 0 0 0 20px;
-  background-color: #fff;
   font-size: 18px;
   font-weight: 700;
   color: black;
   text-decoration: none;
   align-items: center;
-
 }
 .logo:hover{
   color: #fc1b44;
