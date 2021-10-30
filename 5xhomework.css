@@ -113,10 +113,11 @@ body{
   display: flex;
   justify-content: space-evenly;
   padding: 30px 0 180px;
-}
-.threepoints_block{
   text-align: center;
   color: #394150;
+}
+.threepoints_block{
+  width: 100%;
 }
 .threepoints_block img{
   width: 230px;
