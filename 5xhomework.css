@@ -134,24 +134,24 @@ body{
   background-color: #F9FAFB;
   color: #394150;
 }
-.teacher_slogan{
+.teacher_introduce{
   width: 770px;
   text-align: left;
   margin: auto;
   padding: 100px 0 40px;
 }
-.teacher_slogan h2{
+.teacher_introduce h2{
   font-size: 30px;
   font-weight: 600;
   padding: 12px 0;
 }
-.teacher_slogan_color{
+.teacher_introduce_color{
   width: 48px;
   height: 2px;
   background-color: #fc1b44;;
   margin: left;
 }
-.teacher_slogan p{
+.teacher_introduce p{
   padding-top: 33px;
   font-size: 20px;
   line-height: 28px;
@@ -315,10 +315,9 @@ body{
 }
 .media_more{
   width: 100%;
-  height: 140pt;
+  height: 160pt;
   text-align: center;
   margin-top: 25px;
-  align-items: center;
 }
 .media_more a{
   font-size: 18px;

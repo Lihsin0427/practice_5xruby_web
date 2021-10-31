@@ -9,22 +9,22 @@
   margin-left: auto;
   margin-right: auto;
 }
-.course_slogan{
+.course_introduce{
   margin: 170px 30px 0px 20px;
 }
-.course_slogan h4{
+.course_introduce h4{
   font-size: 30px;
   font-weight: 800;
   color: white;
   padding-bottom: 12px;
 }
-.course_slogan_color{
+.course_introduce_color{
   width: 48px;
   height: 2px;
   background-color: #fc1b44;;
   margin: left;
 }
-.course_slogan p{
+.course_introduce p{
   padding-top: 30px;
   font-size: 19px;
   font-weight: 400;
@@ -68,21 +68,32 @@
   padding-top: 50px;
   padding-left: 20px
 }
-.course_goto_page p{
+.course_goto_p{
   font-size: 16.5px;
   font-weight: normal;
   color: white;
   padding: 24px 0 32px 20px;
 }
 .course_goto_page a{
+  display: flex;
   text-decoration: none;
   font-size: 16.5px;
   font-weight: normal;
   color: white;
-  padding-left: 20px;
 }
-.course_goto_page a:hover{
+.course_goto_page a :first-child{
+  margin-left: 20px;
+}
+.course_goto_page a :first-child:hover{
   text-decoration: underline;
+}
+.course_goto_page a :last-child{
+  font-weight: 900;
+  margin-left: 3px;
+  }
+.course_goto_page a :last-child:hover{
+  position: relative;
+  right: -5px;
 }
 .course_recently{
   width: 1175px;
