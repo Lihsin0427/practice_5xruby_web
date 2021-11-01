@@ -403,6 +403,7 @@
 }
 .link img{
   height: 55px;
+  padding-bottom: 15px;
 }
 .link_information p{
   font-size: 12px;

@@ -1,6 +1,7 @@
 body{
   padding-top: 90px;
   width: 100%;
+  font-family: "Microsoft JhengHei", PingFang, STHeiti, sans-serif, serif;
 }
 ::selection {
     background: #fc1b44;
@@ -128,6 +129,7 @@ body{
 }
 .threepoints_block p{
   font-size: 16px;
+  font-weight: 500;
   line-height: 22px;
 }
 .teacher{
