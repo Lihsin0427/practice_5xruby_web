@@ -351,10 +351,39 @@
 .recommend_dot div:hover{
   background-color: #fc1b44;
 }
-
-
-
-.article{
-  width: 100%;
+.article_body{
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: -30px auto 80px auto;
+}
+.article_body a{
+  text-decoration: none;
   color: #394150;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 32px;
+}
+.article_body a:hover{
+  color: #fc1b44;
+}
+.article_body_item{
+  width: 365px;
+}
+.article_body_item div{
+  width: 365px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.article_body img{
+  width: 100%;
+}
+.article_body h5{
+  padding: 16px 0;
+}
+.article_body p{
+  color: #a4adbd;
+  font-size: 13px;
+  font-weight: 400;
 }
