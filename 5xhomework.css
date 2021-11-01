@@ -13,6 +13,7 @@ body{
   position: fixed;
   right: 25px;
   bottom: 25px;
+  z-index: 1;
 }
 .message img{
   width: 100%;
