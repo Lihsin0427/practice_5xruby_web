@@ -85,24 +85,24 @@ body{
   vertical-align: bottom;
   border-radius: 5px;
 }
-.body_tittle{
+.main_tittle{
   text-align: center;
   margin: auto;
   padding: 50px 0 80px;
   color: #394150;
 }
-.body_tittle h2{
+.main_tittle h2{
   font-size: 30px;
   font-weight: 600;
   padding: 12px 0;
 }
-.body_tittle_color{
+.main_tittle_color{
   width: 48px;
   height: 2px;
   background-color: #fc1b44;
   margin: auto;
 }
-.body_tittle p{
+.main_tittle p{
   padding-top: 33px;
   font-size: 20px;
 }
@@ -298,13 +298,13 @@ body{
   color: #727884;
   padding-top: 18px;
 }
-.media_more{
+.main_morelink{
   width: 100%;
   height: 160pt;
   text-align: center;
   margin-top: 25px;
 }
-.media_more a{
+.main_morelink a{
   font-size: 18px;
   text-decoration: none;
   color: white;
@@ -312,7 +312,7 @@ body{
   background-color: #fc1b44;
   border-radius: 5px;
 }
-.media_more a:hover{
+.main_morelinke a:hover{
   background-color: #b31e39;
 }
 
