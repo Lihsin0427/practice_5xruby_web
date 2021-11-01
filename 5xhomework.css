@@ -85,24 +85,25 @@ body{
   vertical-align: bottom;
   border-radius: 5px;
 }
-.slogan{
+.body_tittle{
   text-align: center;
-  width: 100%;
+  margin: auto;
+  padding: 50px 0 80px;
   color: #394150;
 }
-.slogan h2{
+.body_tittle h2{
   font-size: 30px;
   font-weight: 600;
-  padding: 48px 0 12px 0;
+  padding: 12px 0;
 }
-.slogan_color{
+.body_tittle_color{
   width: 48px;
   height: 2px;
   background-color: #fc1b44;
   margin: auto;
 }
-.slogan p{
-  padding: 33px 0 36px 0;
+.body_tittle p{
+  padding-top: 33px;
   font-size: 20px;
 }
 .threepoints{
@@ -110,7 +111,7 @@ body{
   width: 1200px;
   display: flex;
   justify-content: space-evenly;
-  padding: 30px 0 180px;
+  padding-bottom:180px;
   text-align: center;
   color: #394150;
 }
@@ -165,7 +166,7 @@ body{
   width: 510px;
   background-color:white;
   padding: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(70, 69, 69, 0.1)
 }
@@ -271,22 +272,6 @@ body{
   width: 100%;
   background-color: #F9FAFB;
   color: #394150;
-}
-.media_tittle{
-  text-align: center;
-  margin: auto;
-  padding: 100px 0 80px;
-}
-.media_tittle h2{
-  font-size: 30px;
-  font-weight: 600;
-  padding: 12px 0;
-}
-.media_tittle_color{
-  width: 48px;
-  height: 2px;
-  background-color: #fc1b44;
-  margin: auto;
 }
 .media_reports{
   display: flex;
