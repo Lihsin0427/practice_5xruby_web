@@ -84,14 +84,14 @@
 .course_goto_page a :first-child{
   margin-left: 20px;
 }
-.course_goto_page a :first-child:hover{
+.course_goto_page a:hover :first-child{
   text-decoration: underline;
 }
 .course_goto_page a :last-child{
   font-weight: 900;
   margin-left: 3px;
   }
-.course_goto_page a :last-child:hover{
+.course_goto_page a:hover :last-child{
   position: relative;
   right: -5px;
 }
@@ -288,14 +288,14 @@
   color: #fc1b44;
   margin-left: 20px;
 }
-.onlinecourse_options_go :first-child:hover{
+.onlinecourse_options_go:hover :first-child{
   text-decoration: underline;
 }
 .onlinecourse_options_go :last-child{
   font-weight: 900;
   margin-left: 3px;
   }
-.onlinecourse_options_go :last-child:hover{
+.onlinecourse_options_go:hover :last-child{
   position: relative;
   right: -5px;
 }
