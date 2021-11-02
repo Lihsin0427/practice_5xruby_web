@@ -12,7 +12,7 @@
 .course_introduce{
   margin: 170px 30px 0px 20px;
 }
-.course_introduce h4{
+.course_introduce h1{
   font-size: 30px;
   font-weight: 800;
   color: white;
@@ -100,7 +100,7 @@
   height: 500px;
   margin: 0 auto 50px;
 }
-.course_recently h5{
+.course_recently h4{
   font-size: 24px;
   font-weight: 800;
   color: white;
@@ -207,7 +207,7 @@
   margin: left;
   padding: 100px 0 50px;
 }
-.onlinecourse_intro h2{
+.onlinecourse_intro h1{
   font-size: 30px;
   font-weight: 600;
   padding: 12px 0;
@@ -266,7 +266,7 @@
 .onlinecourse_options img{
   width: 550px;
 }
-.onlinecourse_options h5{
+.onlinecourse_options h4{
   margin: 25px 0 15px 20px;
   font-size: 20px;
   font-weight: 800;
@@ -419,7 +419,7 @@
   width: 200px;
   height: 180px;
 }
-.link_web h6{
+.link_web h5{
   font-size: 15px;
   font-weight: 700;
   margin-bottom: 15px;
