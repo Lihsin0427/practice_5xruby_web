@@ -76,6 +76,7 @@ body{
   background-color: #fc1b44;
   transform: scaleX(0);
   transition: transform .5s;
+
 }
 .header nav a:hover .nav_line{
   transform: scaleX(1);
@@ -249,7 +250,7 @@ body{
   font-weight: 400;
 }
 .member_line2 div{
-  width: 80%;
+  flex-grow: 1;
   height: 1.5px;
   background-color: #E5E7EB;
 }
