@@ -21,7 +21,6 @@
   height: 170px;
   clip-path: polygon(0% 0%, 100% 0%, 70% 100%);
 }
-
 .course_short{
   width: 1080px;
   display: flex;
@@ -117,18 +116,18 @@
 }
 .course_recently{
   width: 1175px;
-  height: 500px;
+  /* height: 500px; */
   margin: 0 auto 50px;
 }
 .course_recently h4{
   font-size: 24px;
   font-weight: 800;
   color: white;
-  padding: 100px 0 30px 
-}
+  padding: 100px 0 30px;
+  }
 .recentlybg{
   display: flex;
-}
+  }
 .recentlybg div{
   width: 375px;
   height: 330px;
@@ -138,10 +137,14 @@
 .recentlybg div:nth-of-type(-n+2){
   margin-right: 25px;
 }
+.course_recently_wrap{
+  position: relative;
+padding-bottom: 40px;
+} 
 .recently{
   display: flex;
-  position: relative;
-  top: -330px;
+  position: absolute;
+  top: 0
 }
 .recently a{
   width: 375px;
@@ -154,7 +157,6 @@
 }
 .recently_each{
   text-decoration: none;
-  
 }
 .recently_each:hover{
   position: relative;
@@ -219,6 +221,7 @@
   color: #394150;
   background-color: #F9FAFB;
   position: relative;
+  z-index: -1;
 }
 .onlinecourse::after{
   content: "";
